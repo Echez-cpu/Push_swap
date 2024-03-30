@@ -6,7 +6,7 @@
 /*   By: pokpalae <pokpalae@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/12 15:24:40 by pokpalae          #+#    #+#             */
-/*   Updated: 2024/03/28 15:40:25 by pokpalae         ###   ########.fr       */
+/*   Updated: 2024/03/30 13:47:48 by pokpalae         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,8 +42,8 @@ int	main(int argc, char **argv)
 	t_stack_node	*a;
 	t_stack_node	*b;
 
-	a = NULL;
-	b = NULL;
+	a = ((void *)0);
+	b = ((void *)0);
 	if (argc == 1)
 		return (0);
 	cheecker(argv);
